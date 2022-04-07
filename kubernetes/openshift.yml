@@ -5,7 +5,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: f11573eeb26f5a3c47374d9f01a2f6616b7ca82b
-    app.quarkus.io/build-timestamp: 2022-04-06 - 11:57:21 +0000
+    app.quarkus.io/build-timestamp: 2022-04-07 - 03:22:28 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -18,7 +18,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: f11573eeb26f5a3c47374d9f01a2f6616b7ca82b
-    app.quarkus.io/build-timestamp: 2022-04-06 - 11:57:21 +0000
+    app.quarkus.io/build-timestamp: 2022-04-07 - 03:22:28 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -79,7 +79,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: f11573eeb26f5a3c47374d9f01a2f6616b7ca82b
-    app.quarkus.io/build-timestamp: 2022-04-06 - 11:57:21 +0000
+    app.quarkus.io/build-timestamp: 2022-04-07 - 03:22:28 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -132,7 +132,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: f11573eeb26f5a3c47374d9f01a2f6616b7ca82b
-    app.quarkus.io/build-timestamp: 2022-04-06 - 11:57:21 +0000
+    app.quarkus.io/build-timestamp: 2022-04-07 - 03:22:28 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -148,7 +148,7 @@ spec:
       annotations:
         app.openshift.io/vcs-url: <<unknown>>
         app.quarkus.io/commit-id: f11573eeb26f5a3c47374d9f01a2f6616b7ca82b
-        app.quarkus.io/build-timestamp: 2022-04-06 - 11:57:21 +0000
+        app.quarkus.io/build-timestamp: 2022-04-07 - 03:22:28 +0000
       labels:
         app.openshift.io/runtime: quarkus
         app.kubernetes.io/version: 999-SNAPSHOT
