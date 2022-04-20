@@ -4,8 +4,8 @@ kind: ServiceAccount
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: f9d456672341fe9dee207fea28d6a8c4335a2b2c
-    app.quarkus.io/build-timestamp: 2022-04-19 - 04:15:09 +0000
+    app.quarkus.io/commit-id: 8b1869482d835075d3fda16e40173ff7432ada9c
+    app.quarkus.io/build-timestamp: 2022-04-20 - 04:10:55 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -17,8 +17,8 @@ kind: Service
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: f9d456672341fe9dee207fea28d6a8c4335a2b2c
-    app.quarkus.io/build-timestamp: 2022-04-19 - 04:15:09 +0000
+    app.quarkus.io/commit-id: 8b1869482d835075d3fda16e40173ff7432ada9c
+    app.quarkus.io/build-timestamp: 2022-04-20 - 04:10:55 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -78,8 +78,8 @@ kind: ImageStream
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: f9d456672341fe9dee207fea28d6a8c4335a2b2c
-    app.quarkus.io/build-timestamp: 2022-04-19 - 04:15:09 +0000
+    app.quarkus.io/commit-id: 8b1869482d835075d3fda16e40173ff7432ada9c
+    app.quarkus.io/build-timestamp: 2022-04-20 - 04:10:55 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -98,6 +98,7 @@ rules:
     resources:
       - keycloaks
       - keycloaks/status
+      - keycloaks/finalizers
     verbs:
       - get
       - list
@@ -117,6 +118,7 @@ rules:
     resources:
       - keycloakrealmimports
       - keycloakrealmimports/status
+      - keycloakrealmimports/finalizers
     verbs:
       - get
       - list
@@ -131,8 +133,8 @@ kind: DeploymentConfig
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: f9d456672341fe9dee207fea28d6a8c4335a2b2c
-    app.quarkus.io/build-timestamp: 2022-04-19 - 04:15:09 +0000
+    app.quarkus.io/commit-id: 8b1869482d835075d3fda16e40173ff7432ada9c
+    app.quarkus.io/build-timestamp: 2022-04-20 - 04:10:55 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -147,8 +149,8 @@ spec:
     metadata:
       annotations:
         app.openshift.io/vcs-url: <<unknown>>
-        app.quarkus.io/commit-id: f9d456672341fe9dee207fea28d6a8c4335a2b2c
-        app.quarkus.io/build-timestamp: 2022-04-19 - 04:15:09 +0000
+        app.quarkus.io/commit-id: 8b1869482d835075d3fda16e40173ff7432ada9c
+        app.quarkus.io/build-timestamp: 2022-04-20 - 04:10:55 +0000
       labels:
         app.openshift.io/runtime: quarkus
         app.kubernetes.io/name: keycloak-operator
