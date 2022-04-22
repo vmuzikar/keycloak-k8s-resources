@@ -3,19 +3,19 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   annotations:
-    app.quarkus.io/commit-id: 8ea8aaebcf3ec7166607f79141f40ba7a2eecfaa
-    app.quarkus.io/build-timestamp: 2022-04-21 - 10:03:39 +0000
+    app.quarkus.io/commit-id: 435a78364f48233a60061e2abbaa68f1377017d3
+    app.quarkus.io/build-timestamp: 2022-04-22 - 04:26:27 +0000
   labels:
-    app.kubernetes.io/version: 999-SNAPSHOT
     app.kubernetes.io/name: keycloak-operator
+    app.kubernetes.io/version: 999-SNAPSHOT
   name: keycloak-operator
 ---
 apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    app.quarkus.io/commit-id: 8ea8aaebcf3ec7166607f79141f40ba7a2eecfaa
-    app.quarkus.io/build-timestamp: 2022-04-21 - 10:03:39 +0000
+    app.quarkus.io/commit-id: 435a78364f48233a60061e2abbaa68f1377017d3
+    app.quarkus.io/build-timestamp: 2022-04-22 - 04:26:27 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -180,26 +180,26 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    app.quarkus.io/commit-id: 8ea8aaebcf3ec7166607f79141f40ba7a2eecfaa
-    app.quarkus.io/build-timestamp: 2022-04-21 - 10:03:39 +0000
+    app.quarkus.io/commit-id: 435a78364f48233a60061e2abbaa68f1377017d3
+    app.quarkus.io/build-timestamp: 2022-04-22 - 04:26:27 +0000
   labels:
-    app.kubernetes.io/version: 999-SNAPSHOT
     app.kubernetes.io/name: keycloak-operator
+    app.kubernetes.io/version: 999-SNAPSHOT
   name: keycloak-operator
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/version: 999-SNAPSHOT
       app.kubernetes.io/name: keycloak-operator
+      app.kubernetes.io/version: 999-SNAPSHOT
   template:
     metadata:
       annotations:
-        app.quarkus.io/commit-id: 8ea8aaebcf3ec7166607f79141f40ba7a2eecfaa
-        app.quarkus.io/build-timestamp: 2022-04-21 - 10:03:39 +0000
+        app.quarkus.io/commit-id: 435a78364f48233a60061e2abbaa68f1377017d3
+        app.quarkus.io/build-timestamp: 2022-04-22 - 04:26:27 +0000
       labels:
-        app.kubernetes.io/version: 999-SNAPSHOT
         app.kubernetes.io/name: keycloak-operator
+        app.kubernetes.io/version: 999-SNAPSHOT
     spec:
       containers:
         - env:
