@@ -5,7 +5,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: 7fdd3cf9658ccac25284f033c6d0b85050d400b8
-    app.quarkus.io/build-timestamp: 2022-05-21 - 03:33:21 +0000
+    app.quarkus.io/build-timestamp: 2022-05-22 - 03:50:08 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -18,7 +18,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: 7fdd3cf9658ccac25284f033c6d0b85050d400b8
-    app.quarkus.io/build-timestamp: 2022-05-21 - 03:33:21 +0000
+    app.quarkus.io/build-timestamp: 2022-05-22 - 03:50:08 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -79,7 +79,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: 7fdd3cf9658ccac25284f033c6d0b85050d400b8
-    app.quarkus.io/build-timestamp: 2022-05-21 - 03:33:21 +0000
+    app.quarkus.io/build-timestamp: 2022-05-22 - 03:50:08 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -134,7 +134,7 @@ metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
     app.quarkus.io/commit-id: 7fdd3cf9658ccac25284f033c6d0b85050d400b8
-    app.quarkus.io/build-timestamp: 2022-05-21 - 03:33:21 +0000
+    app.quarkus.io/build-timestamp: 2022-05-22 - 03:50:08 +0000
   labels:
     app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
@@ -143,18 +143,18 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app.kubernetes.io/name: keycloak-operator
     app.kubernetes.io/version: 999-SNAPSHOT
+    app.kubernetes.io/name: keycloak-operator
   template:
     metadata:
       annotations:
         app.openshift.io/vcs-url: <<unknown>>
         app.quarkus.io/commit-id: 7fdd3cf9658ccac25284f033c6d0b85050d400b8
-        app.quarkus.io/build-timestamp: 2022-05-21 - 03:33:21 +0000
+        app.quarkus.io/build-timestamp: 2022-05-22 - 03:50:08 +0000
       labels:
         app.openshift.io/runtime: quarkus
-        app.kubernetes.io/name: keycloak-operator
         app.kubernetes.io/version: 999-SNAPSHOT
+        app.kubernetes.io/name: keycloak-operator
     spec:
       containers:
         - env:
